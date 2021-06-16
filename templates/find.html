@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="static/index.js"></script>
+  <title>Pesquisar</title>
+</head>
+<body>
+  {% include "topbar.html" %}
+
+ <div class="container" style="margin-left:38%">
+   <h2>Pesquisar</h2>
+  <div>
+    <div class="form-group">
+      <label for="input-name">Nome</label>
+      <input type="name" id="name" class="form-control" style="width:450px" placeholder="Nome">
+    </div>
+    <button onclick="busca()" class="btn btn-primary">Pesquisar</button>
+    </div>
+</body>
+</html>
